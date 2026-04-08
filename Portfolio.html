@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jezreel | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_additional.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="script1.js"></script>
-    <script src="script2.js"></script>
-
-    <title>Portfolio Website</title>
+    <script defer src="script1.js"></script>
+    <script defer src="script2.js"></script>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Jezreel</a>
+        <a href="Portfolio.html" class="logo">Jezreel</a>
         <nav>
             <a href="skills.html">Skills</a>
             <a href="education.html">Education</a>
-            <a href="Contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
         </nav>
         <div class="toggle">
             <a href="Portfolio.html"><i class='bx bxs-home-circle toggle-icon'></i></a>
         </div>
     </header>
 
-
-    <section class="home" id="home">
-        <div class="photo-frame">
-            <img src="" alt="Your Photo">
-        </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>Jezreel</span></h1>
-            <h3>Welcome to My Portfolio</h3>
-            <p>Scroll down to explore more about me!</p><br><br>
-
-            <div class="social-media">
-                <a href="https://www.quora.com/profile/Jezreel-Sebastin"><i class='bx bxl-quora' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
+    <main>
+        <section class="home" id="home">
+            <div class="photo-frame">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80" alt="Portrait of Jezreel">
             </div>
-        </div>
+            <div class="home-content">
+                <h1>Hi, It's <span>Jezreel</span></h1>
+                <h3>I am a <span class="typing-text"><span></span></span></h3>
+                <p>I build secure, practical software solutions and enjoy turning ideas into polished digital experiences.</p>
 
-    </section>
+                <div class="hero-actions">
+                    <a href="contact.html" class="btn">Hire Me</a>
+                    <a href="blog.html" class="btn btn-outline">Read My Blog</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://www.quora.com/profile/Jezreel-Sebastin" aria-label="Quora"><i class='bx bxl-quora'></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="highlights">
+            <h2>Portfolio Highlights</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Clear Value Proposition</h3>
+                    <p>Stronger headline and role-focused messaging help visitors understand your strengths in seconds.</p>
+                </article>
+                <article class="card">
+                    <h3>Better Visual Hierarchy</h3>
+                    <p>Refined spacing, card layout, and section structure guide users naturally across your profile.</p>
+                </article>
+                <article class="card">
+                    <h3>Action-Driven Content</h3>
+                    <p>Prominent CTAs invite recruiters and collaborators to contact you or explore your work.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block" id="blog-plan">
+            <h2>Blog Section Plan</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Phase 1: Foundation</h4>
+                    <p>Create categories (Development, Cybersecurity, Career Notes), add article cards, and consistent post metadata.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Phase 2: Publishing Workflow</h4>
+                    <p>Write 3 starter posts, set a monthly cadence, and highlight a featured post on the homepage.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Phase 3: Growth</h4>
+                    <p>Add search/tag filtering, newsletter CTA, and project case-study articles to attract recruiters.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
